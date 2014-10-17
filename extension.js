@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "FreedomOPBot",
         language: "english",
-        chatLink: "https://rawgit.com/SupItsDillon/basicBot/master/lang/en.json",
+        chatLink: "http://potato.pw/bot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -99,12 +99,12 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/SupItsDillon/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/SupItsDillon/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "http://potato.pw/botop/master/blacklists/ExampleNSFWlist.json",
+            OP: "http://potato.pw/botop/master/blacklists/ExampleOPlist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/SupItsDillon/basicBot/master/basicBot.js', extend);
+    $.getScript('http://potato.pw/bot/master/basicBot.js', extend);
 
 }).call(this);
